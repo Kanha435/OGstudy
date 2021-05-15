@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.tag{
+  color: white;
+}
+.ask-form{
+  border-top: 10px solid black;
+}
+
+.card-1{
+  margin-top: 100px;
+
+}
+.header{
+  background-color: rgba(10, 10, 10, 0.459);
+  border-bottom: 5px solid black;
+}
+.content-1{
+  height: 650px;
+  /* background-image: url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGJhY2tncm91bmQlMjBzY2llbmNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"); */
+}
+.heading{
+  font-size: 20px;
+}
+.footer{
+  background-color: rgb(165, 159, 159);
+}
+.footer-div{
+  background-color:rgba(39, 39, 42, 0.1);
+  border-top: 10px solid black;
+}
+.footer-div a{
+  color: black;
+}
