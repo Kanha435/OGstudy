@@ -23,6 +23,7 @@ code {
 
 }
 .header{
+  height: 100px;
   background-color: rgba(10, 10, 10, 0.459);
   border-bottom: 5px solid black;
 }
@@ -42,4 +43,14 @@ code {
 }
 .footer-div a{
   color: black;
+}
+
+/* schoolGroup.jsx file css */
+.margin-top{
+  margin-top: 110px;
+
+}
+
+.schoolcard{
+  border-top: 3px solid black;
 }

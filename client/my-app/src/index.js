@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Content from './component/content';
-import Footer from './component/footer';
-import Header from './component/header';
-import "./index.css";
+
+import {BrowserRouter} from 'react-router-dom';
+import App from './app';
 ReactDOM.render(
   <>
-    <Header />
-    <Content />
-    <Footer />
+  <BrowserRouter>
+      <App />
+  </BrowserRouter>
     </>,
   document.getElementById('root')
 );

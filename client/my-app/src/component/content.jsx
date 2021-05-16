@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {NavLink} from 'react-router-dom';
 function Content() {
     return (
         <>
@@ -69,7 +69,7 @@ function Content() {
                     <div className="col-md-12 card p-2">
                         <h4>School Students</h4>
                         <img src="https://images.unsplash.com/photo-1534643960519-11ad79bc19df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2Nob29sJTIwc3R1ZGVudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="" />
-                        <a href="/" className="nav-link btn btn-dark text-white mt-3"> Join Group</a>
+                        <NavLink to="/schoolGroup" className="nav-link btn btn-dark text-white mt-3"> Join Group</NavLink>
                     </div>
                 </div>
                 <div className="col-md-4 text-center">
