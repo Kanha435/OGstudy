@@ -9,7 +9,7 @@ function Content() {
                     <img src="\img\favicon.ico.png" alt="" />
                     <h5>Study with Group</h5>
                     <p>A students with our after-school homework groups.</p>
-                    <a href="/signUp" className="btn btn-dark mt-5">Free Sign Up</a>
+                    <a href="/signUp" className="btn mt-5"><img src="https://image.flaticon.com/icons/png/128/921/921308.png" alt="" className="icon iw-70" /></a>
                 </div>
                 <hr className="mt-5"/>
             </div>
@@ -20,7 +20,7 @@ function Content() {
                     <h1>OG<small className = "heading">study</small></h1>
                     <h3 className="mt-5">OGstudy is easiest way to work in Groups</h3>
                     <p>To create a group, you are required to enter a group name, password and the purpose of the group.</p>
-                    <a href="/#" className="btn btn-dark mt-5">Create Own Group</a>
+                    <a href="/#" className="btn  mt-5"> <img src="https://image.flaticon.com/icons/png/128/565/565418.png" alt="" className="icon iw-70" /></a>
                 </div>
             </div>
         </div> 
@@ -28,10 +28,11 @@ function Content() {
         <div className="container bg-light mt-5 mb-5 p-5">
             <div className="row mt-4 mb-4">
             <div className="card col-md-6 p-md-5 p-2 ask-form">
-                    <div className="row mt-3">
-                        <h1>ASK A QUESTION ? </h1>
+                    <div className="row mt-3 text-center">
+                        {/* <h1>ASK A QUESTION ? </h1> */}
+                        <img src="https://image.flaticon.com/icons/png/128/3409/3409535.png" alt="" className="iw-150 m-auto" />
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-3 text-center">
                         <p>Please contact us for specific reasons</p>
                     </div>
                 </div>
@@ -62,6 +63,18 @@ function Content() {
                 </div>
             </div>
         </div> 
+
+        <div className="container p-3 mt-5 mb-5">
+            <div className="row justify-content-around m-4">
+                <div className="col-md-4 text-center">
+                    <img src="https://image.flaticon.com/icons/png/128/1573/1573116.png" alt="" />
+                </div>
+            </div>
+        </div>
+
+
+
+
 
         <div className="container p-3 mt-5 mb-5">
             <div className="row justify-content-around m-4">

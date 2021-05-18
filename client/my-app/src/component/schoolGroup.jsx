@@ -5,8 +5,8 @@ function SchoolGroup() {
     return (
         <>
             <div className="container margin-top">
-                <div className="row">
-                    <NavLink to="/" className="btn btn-dark col-2">Home</NavLink>
+            <div className="row">
+                    <NavLink to="/" className="btn  col-1"><img className="icon" src="https://image.flaticon.com/icons/png/128/25/25694.png" alt="" /></NavLink>
                 </div>
                 <div className="row text-center p-2">
                     <h4>Schooling Student Groups</h4>

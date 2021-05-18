@@ -6,11 +6,11 @@ function Footer() {
             <div className="container-fluid footer pt-5 pb-5">
                 <div className="row">
                     <div className="col-md-4"> 
-                        <div className="col-md-6 p-2 m-auto footer-div">
-                            <h5 className="ml-5">Contact Us</h5>
-                            <a className="nav-link" href="/">Twitter</a>
-                            <a className="nav-link" href="/">Instagram</a>
-                            <a className="nav-link" href="/">Gamil</a>
+                        <div className="col-md-6 p-2 m-auto footer-div ">
+                            <h5 className="ml-5 text-center">Contact Us</h5>
+                            <a className="nav-link text-white" href="/"> <img className="icon" src="https://image.flaticon.com/icons/png/128/1409/1409937.png" alt="" /> Twitter</a>
+                            <a className="nav-link text-white" href="/"><img className="icon" src="https://image.flaticon.com/icons/png/128/2111/2111463.png" alt="" />  Instagram</a>
+                            <a className="nav-link text-white" href="/"><img className="icon" src="https://image.flaticon.com/icons/png/128/732/732200.png" alt="" />  Gamil</a>
                         </div>        
                     </div>
                     <div className="col-md-4">

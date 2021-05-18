@@ -63,3 +63,15 @@ code {
   border-top: 3px solid black;
   margin-left: 20px;
 }
+.icon{
+  width: 30px;
+}
+.iw-40{
+  width: 50px;
+}
+.iw-70{
+  width: 70px;
+}
+.iw-150{
+  width: 150px;
+}

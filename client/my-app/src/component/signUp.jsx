@@ -18,12 +18,12 @@ function SignUp(props) {
         <>
             <div className="container margin-top">
                 <div className="row">
-                <NavLink to="/" className="btn btn-dark col-2">Home</NavLink>
+                <NavLink to="/" className="btn col-1"><img className="icon" src="https://image.flaticon.com/icons/png/128/25/25694.png" alt="" /></NavLink>
                 </div>
                 <div className="row p-2">
                     <div className="col-md-6 card p-5">
                         <h1>{ cstate ?"Sign In":"Sign Up"}</h1>
-                        <input type="email" className="form-control mt-3"  placeholder="name@example.com" />
+                        <input type="email" className="form-control mt-3 col-11"  placeholder="name@example.com" />
                         <input type="password" className="form-control mt-3"  placeholder="password" />
                         {cstate ? null :
                         <input type="password" className="form-control mt-3"  placeholder="confirm password" />

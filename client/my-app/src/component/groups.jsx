@@ -5,7 +5,7 @@ function Groups() {
         <>
             <div className="container  margin-top">
                 <div className="row">
-                    <NavLink to="/" className="btn btn-dark col-2">Home</NavLink>
+                    <NavLink to="/" className="btn col-1"><img className="icon" src="https://image.flaticon.com/icons/png/128/25/25694.png" alt="" /></NavLink>
                 </div>
                 <div className="row mt-3">
                     <div className="col-md-3 border">
