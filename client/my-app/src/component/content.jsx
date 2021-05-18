@@ -9,7 +9,7 @@ function Content() {
                     <img src="\img\favicon.ico.png" alt="" />
                     <h5>Study with Group</h5>
                     <p>A students with our after-school homework groups.</p>
-                    <a href="/#" className="btn btn-dark mt-5">Free Sign Up</a>
+                    <a href="/signUp" className="btn btn-dark mt-5">Free Sign Up</a>
                 </div>
                 <hr className="mt-5"/>
             </div>
@@ -76,7 +76,7 @@ function Content() {
                     <div className="col-md-12 card p-2">
                         <h4>Collage/University Students</h4>
                         <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29sbGFnZSUyMHN0dWRlbnRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="" />
-                        <a href="/" className="nav-link btn btn-dark text-white mt-3"> Join Group</a>
+                        <NavLink to="/collageGroup" className="nav-link btn btn-dark text-white mt-3"> Join Group</NavLink>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ function Content() {
                     <h5>Study in Group</h5>
                     <p>OGstudy Groups allow you to share ideas and study resources as well as work on projects with classmates or colleagues around the world.
 </p>
-                    <a href="/#" className="btn btn-dark mt-3">Join Group</a>
+                    <NavLink to="/groups" className="btn btn-dark mt-3">Join Group</NavLink>
                    
                 </div>
             </div>

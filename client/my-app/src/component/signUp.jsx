@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import {NavLink} from 'react-router-dom'
 
 function SignUp(props) {
     let state;
@@ -16,7 +17,10 @@ function SignUp(props) {
     return (
         <>
             <div className="container margin-top">
-                <div className="row p-5">
+                <div className="row">
+                <NavLink to="/" className="btn btn-dark col-2">Home</NavLink>
+                </div>
+                <div className="row p-2">
                     <div className="col-md-6 card p-5">
                         <h1>{ cstate ?"Sign In":"Sign Up"}</h1>
                         <input type="email" className="form-control mt-3"  placeholder="name@example.com" />
