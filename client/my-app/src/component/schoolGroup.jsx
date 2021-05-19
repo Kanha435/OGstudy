@@ -14,7 +14,7 @@ function SchoolGroup() {
                 <div className="row p-3 justify-content-around">
                     {
                         schooldata.map((item)=>
-                        <div className="card col-md-2 schoolcard text-center p-3 mt-3">
+                        <div className="card col-md-2 schoolcard text-center p-3 mt-3 b-shadow">
                             <h6>{item.cName}</h6>
                             <p>Class Group</p>
                             <NavLink to="/" className="nav-link btn btn-dark text-white w-50 m-auto">Join</NavLink>

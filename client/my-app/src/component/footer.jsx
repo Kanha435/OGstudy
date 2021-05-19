@@ -5,23 +5,23 @@ function Footer() {
         <>
             <div className="container-fluid footer pt-5 pb-5">
                 <div className="row">
-                    <div className="col-md-4"> 
-                        <div className="col-md-6 p-2 m-auto footer-div ">
-                            <h5 className="ml-5 text-center">Contact Us</h5>
+                    <div className="col-md-4 "> 
+                        <div className="col-md-6 p-2 m-auto footer-div b-shadow ">
+                            <h5 className="ml-5 text-center ">Contact Us</h5>
                             <a className="nav-link text-white" href="/"> <img className="icon" src="https://image.flaticon.com/icons/png/128/1409/1409937.png" alt="" /> Twitter</a>
                             <a className="nav-link text-white" href="/"><img className="icon" src="https://image.flaticon.com/icons/png/128/2111/2111463.png" alt="" />  Instagram</a>
                             <a className="nav-link text-white" href="/"><img className="icon" src="https://image.flaticon.com/icons/png/128/732/732200.png" alt="" />  Gamil</a>
                         </div>        
                     </div>
                     <div className="col-md-4">
-                        <div className="col-md-6 p-2  m-auto footer-div">
+                        <div className="col-md-6 p-2  m-auto footer-div b-shadow">
                             <a className="nav-link" href="/">About Us</a>
                             <a className="nav-link" href="/">Help</a>
                             <a className="nav-link" href="/">Privacy Policy</a>
                         </div>    
                     </div>
                     <div className="col-md-4">
-                        <div className="col-md-6 p-2  m-auto footer-div">
+                        <div className="col-md-6 p-2  m-auto footer-div b-shadow">
                             <a className="nav-link" href="/">Sign Up</a>
                             <a className="nav-link" href="/">Terms & rules</a>
                             <a className="nav-link" href="/">Gamil</a>

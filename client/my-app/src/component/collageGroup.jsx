@@ -14,14 +14,13 @@ function CollageGroup() {
                 <div className="row p-3 justify-content-around">
                     {
                         collagedata.map((item)=>
-                            <div className="card col-md-2 collagecard text-center p-3 mt-3 ml-5">
+                            <div className="card col-md-2 collagecard text-center p-3 mt-3 ml-5 b-shadow">
                               <h6>{item.cName}</h6>
                              <p>Group</p>
                              <div className="row">
-                             <img src="https://image.flaticon.com/icons/png/128/2754/2754372.png" alt="" className="icon iw-40 col-2" />
-                             <div className="col-2"> <p>240928</p> </div>
+                                <img src="https://image.flaticon.com/icons/png/128/1528/1528669.png" alt="" className="icon iw-70 m-auto" />
                              </div>
-                             <NavLink to="/" className="nav-link btn btn-dark text-white w-50 m-auto">Join</NavLink>
+                             <NavLink to="/" className="nav-link btn btn-dark text-white w-50 mt-3 m-auto">Join</NavLink>
                              </div>
                         )
                     }
