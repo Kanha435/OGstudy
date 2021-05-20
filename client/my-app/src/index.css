@@ -54,6 +54,14 @@ code {
 
 }
 
+.back-img{
+  width: 100%;
+  height: 575px;
+  background-image: url("https://images.unsplash.com/photo-1509743248323-354f9af69c6e?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8Sjl5clBhSFhSUVl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .schoolcard{
   border-top: 3px solid black;
   margin-left: 20px;
@@ -83,5 +91,6 @@ code {
 .bi-shadow{
   box-shadow: -1px -1px 6px 6px rgba(7,0,0,0.66) inset;
 -webkit-box-shadow: -1px -1px 6px 6px rgba(7,0,0,0.66) inset;
--moz-box-shadow: -1px -1px 6px 6px rgba(7,0,0,0.66) inset;
+-moz-box-shadow: -1px -1px 6px 6px rgba(0, 0, 0, 0.66) inset;
 }
+

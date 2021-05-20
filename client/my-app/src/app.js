@@ -8,31 +8,35 @@ import SchoolGroup from './component/schoolGroup';
 import SignUp from './component/signUp';
 import CollageGroup from './component/collageGroup';
 import Groups from './component/groups';
+import Newgroup from './component/newgroup';
 
 function App() {
     return (
         <>
-        <Header />
-        <Route exact path="/">
-            <Content />
-            <Footer />
-        </Route>
-        <Route path="/schoolGroup">
-            <SchoolGroup />
-        </Route>
-        <Route path="/signIn">
-            <SignUp name = "signin"/>
-        </Route>
-        <Route path="/signUp">
-            <SignUp name = "signup"/>
-        </Route>
-        <Route path="/collageGroup">
-            <CollageGroup />
-        </Route>
-        <Route path="/groups">
-            <Groups />
-        </Route>
-        
+            <Header />
+            <Route exact path="/">
+                <Content />
+                <Footer />
+            </Route>
+            <Route path="/schoolGroup">
+                <SchoolGroup />
+            </Route>
+            <Route path="/signIn">
+                <SignUp name = "signin"/>
+            </Route>
+            <Route path="/signUp">
+                <SignUp name = "signup"/>
+            </Route>
+            <Route path="/collageGroup">
+                <CollageGroup />
+            </Route>
+            <Route path="/groups">
+                <Groups />
+            </Route>
+            <Route path="/newgroup">
+                <Newgroup />
+            </Route>
+            
         </>
     )
 }

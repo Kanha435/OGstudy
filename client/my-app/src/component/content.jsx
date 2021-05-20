@@ -20,7 +20,7 @@ function Content() {
                     <h1>OG<small className = "heading">study</small></h1>
                     <h3 className="mt-5">OGstudy is easiest way to work in Groups</h3>
                     <p>To create a group, you are required to enter a group name, password and the purpose of the group.</p>
-                    <a href="/#" className="btn  mt-5"> <img src="https://image.flaticon.com/icons/png/128/565/565418.png" alt="" className="icon iw-70" /></a>
+                    <a href="/newgroup" className="btn  mt-5"> <img src="https://image.flaticon.com/icons/png/128/565/565418.png" alt="" className="icon iw-70" /></a>
                 </div>
             </div>
         </div> 
@@ -67,7 +67,7 @@ function Content() {
         <div className="container p-3 mt-5 mb-5">
             <div className="row justify-content-around m-4">
                 <div className="col-md-4 text-center">
-                    <img className="b-shadow" src="https://image.flaticon.com/icons/png/128/1573/1573116.png" alt="" />
+                    <img className="" src="https://image.flaticon.com/icons/png/128/1573/1573116.png" alt="" />
                 </div>
             </div>
         </div>
