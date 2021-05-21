@@ -106,7 +106,7 @@ function Content() {
         <div className="container bg-light p-5 mb-5 mt-2">
             <div className="row justify-content-around mt-4 mb-4 b-shadow p-3">
                 <div className="col-md-4 text-center">
-                    <img src="https://images.unsplash.com/photo-1522071901873-411886a10004?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="" />
+                    <img className="img-size" src="https://images.unsplash.com/photo-1522071901873-411886a10004?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="" />
                 </div>
                 <div className="col-md-4 text-center">
                     <h5>Study in Group</h5>
