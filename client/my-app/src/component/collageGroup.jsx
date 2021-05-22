@@ -14,7 +14,7 @@ function CollageGroup() {
                 <div className="row p-3 justify-content-around">
                     {
                         collagedata.map((item)=>
-                            <div className="card col-md-2 collagecard text-center p-3 mt-3 ml-5 b-shadow">
+                            <div className="card col-md-2 collagecard text-center p-3 mt-3 b-shadow">
                               <h6>{item.cName}</h6>
                              <p>Group</p>
                              <div className="row">

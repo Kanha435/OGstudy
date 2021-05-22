@@ -72,18 +72,17 @@ function Content() {
             </div>
         </div>
 
-
-        <div className="container p-3 mt-5 mb-5">
-            <div className="row justify-content-around m-4">
+        <div className="container p-md-3  mt-5 mb-5">
+            <div className="row justify-content-around m-md-4 m-1">
                 <div className="col-md-4 text-center mt-3">
-                    <div className="col-md-12 card p-2 b-shadow">
+                    <div className="col-md-12 card p-md-2 b-shadow">
                         <h4>School Students</h4>
                         <img src="https://images.unsplash.com/photo-1534643960519-11ad79bc19df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2Nob29sJTIwc3R1ZGVudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="" />
                         <NavLink to="/schoolGroup" className="nav-link btn btn-dark text-white mt-3"> Join Group</NavLink>
                     </div>
                 </div>
                 <div className="col-md-4 text-center mt-3 ">
-                    <div className="col-md-12 card p-2 b-shadow">
+                    <div className="col-md-12 card p-md-2 b-shadow">
                         <h4>Collage/University Students</h4>
                         <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29sbGFnZSUyMHN0dWRlbnRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="" />
                         <NavLink to="/collageGroup" className="nav-link btn btn-dark text-white mt-3"> Join Group</NavLink>
@@ -103,18 +102,20 @@ function Content() {
             </div>
         </div>
 
-        <div className="container bg-light p-5 mb-5 mt-2">
-            <div className="row justify-content-around mt-4 mb-4 b-shadow p-3">
-                <div className="col-md-4 text-center">
-                    <img className="img-size" src="https://images.unsplash.com/photo-1522071901873-411886a10004?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="" />
-                </div>
-                <div className="col-md-4 text-center">
-                    <h5>Study in Group</h5>
-                    <p>OGstudy Groups allow you to share ideas and study resources as well as work on projects with classmates or colleagues around the world.
-</p>
-                    <NavLink to="/groups" className="btn btn-dark mt-3">Join Group</NavLink>
-                   
-                </div>
+        <div className="container bg-light p-md-5 mb-5 mt-2">
+            <div className="row justify-content-around mt-4 mb-4 b-shadow p-3 ">
+                    <div className="col-md-4  text-center">
+                        <div className="col-md-12 card p-md-4">
+                            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29sbGFnZSUyMHN0dWRlbnRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="" />
+                        </div>
+                    </div>
+                    <div className="col-md-4 text-center">
+                        <div className="col-md-12 card p-md-4">
+                            <h5>Study in Group</h5>
+                            <p>OGstudy Groups allow you to share ideas and study resources as well as work on projects with classmates or colleagues around the world.</p>
+                            <NavLink to="/groups" className="btn btn-dark mt-3">Join Group</NavLink>
+                        </div>
+                    </div>
             </div>
         </div>    
         </>

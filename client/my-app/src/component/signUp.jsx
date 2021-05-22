@@ -35,8 +35,8 @@ function SignUp(props) {
                         <h3 className="mt-3">In</h3>
                         <h1 className="mt-3">OG<small className = "heading">study</small></h1>
                         <div className="row justify-content-around mt-5">
-                        <button className="col-3 btn btn-light  text-dark" name="signup" onClick={change}>Sign Up</button>
-                        <button className="col-3 btn btn-light  text-dark" name="signin" onClick={change}>Sign In</button>
+                        <button className="col-5 col-sm-3 btn btn-light  text-dark" name="signup" onClick={change}>Sign Up</button>
+                        <button className="col-5 col-sm-3 btn btn-light  text-dark" name="signin" onClick={change}>Sign In</button>
                         </div>
                     </div>
                 </div>

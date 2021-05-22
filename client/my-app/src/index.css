@@ -94,6 +94,6 @@ code {
 -moz-box-shadow: -1px -1px 6px 6px rgba(0, 0, 0, 0.66) inset;
 }
 
-.img-size{
-  max-width: 350px;
-}
+/* .img-size{
+  width: max-content;
+} */
